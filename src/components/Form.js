@@ -12,17 +12,6 @@ function Form() {
   const [screenResolution, setscreenResolution] = useState("");
 
   const [dummy, setDummy] = useState({
-    // company: "",
-    // Type: "",
-    // Ram: "",
-    // Weight: "",
-    // Touchscreen: "",
-    // IPS: "",
-    // Ppi: "",
-    // Cpubrand: "",
-    // HDD: "",
-    // SSD: "",
-    // Gpubrand: "",
   });
 
   const ScreenResolution = [
@@ -36,21 +25,6 @@ function Form() {
     "3840 x 2160",
   ];
 
-  let data = {
-    company: "Apple",
-    TypeName: "Ultrabook",
-    Ram: 8,
-    Weight: 0.92,
-    Touchscreen: 0,
-    IPS: 1,
-    Ppi: 226.41,
-    Cpubrand: "AMD Processor",
-    HDD: 0,
-    SSD: 0,
-    Gpubrand: "Intel",
-  };
-
-  // var dummy = {}
   const calcPPI = () => {
     var inchess = parseInt(inches);
     let length = parseInt(screenResolution.slice(0, 4));

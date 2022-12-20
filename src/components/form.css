@@ -4,9 +4,6 @@
   margin-bottom: 2rem;
   text-align: center;
 }
-/* .form-select {
-  margin: 0 1rem 1rem 1rem;
-}*/
 .button {
   margin-left: 50%;
   margin-top: 5rem;
@@ -45,9 +42,7 @@
     margin-right: 5%;
     max-width: 100%;
   }
-  /* .TextField{
-    margin-right: 8px;
-  }*/
+  
   .Title{
     font-size: 1.5rem;
   } 

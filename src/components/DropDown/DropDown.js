@@ -12,7 +12,6 @@ export default function ControlledOpenSelect({page,data, namee,name, setDummy,se
 
   const handleChange = (event) => {
     setValues(event.target.value);
-    // console.log(event.target.name)
     name === 'ScreenResolution' ? (setscreenResolution(event.target.value)) : ( setDummy({...dummy,[namee]:event.target.value}) );
    
 
@@ -29,12 +28,6 @@ export default function ControlledOpenSelect({page,data, namee,name, setDummy,se
 
   return (
     <div className={ page === '1' ? "lefty" : "header"}>
-      {/* <Button sx={{ , mt: 1 }} onClick={handleOpen}>
-        {name}
-      </Button> */}
-
-          
-      
         <FormControl fullWidth sx={{mt: 2}}>
             <InputLabel id="demo-controlled-open-select-label">{name}</InputLabel>
             <Select
