@@ -1,0 +1,19 @@
+.header{ 
+    width:48%;
+    display:inline-grid;
+}
+.lefty{
+    width:48%;
+    display:inline-grid;
+    margin-left: 37px;
+}
+@media screen and (max-width: 1429px) {
+    .lefty{
+        margin-left: 31px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .lefty{
+        margin-left: 10px;
+    }
+  }

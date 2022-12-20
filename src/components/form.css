@@ -1,0 +1,59 @@
+.Title {
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+/* .form-select {
+  margin: 0 1rem 1rem 1rem;
+}*/
+.button {
+  margin-left: 50%;
+  margin-top: 5rem;
+  display: flex;
+  padding: 0.5rem 0.5rem;
+  width: 300px;
+}
+.form {
+  border: 2px solid #1976d2;
+  padding: 2rem 2rem 2rem 2rem;
+  border-radius: 16px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.TextField {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.field {
+  width: 300px;
+ 
+}
+.result{
+  border: 2px solid #1976d2;
+  border-radius: 16px;
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 948px) {
+  .form {
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 100%;
+  }
+  /* .TextField{
+    margin-right: 8px;
+  }*/
+  .Title{
+    font-size: 1.5rem;
+  } 
+  .result{
+    font-size: 1.5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
