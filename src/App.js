@@ -1,5 +1,4 @@
-
-import './App.css';
+import './App.css'
 import Laptop from './components/laptop/Laptop';
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import House from './components/house/House';

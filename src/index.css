@@ -5,7 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* overflow: hidden; Hide scrollbars */
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
 }
+
+
+.body::-webkit-scrollbar {
+  display: none;
+}
+
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
