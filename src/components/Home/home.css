@@ -1,0 +1,19 @@
+.button{
+    text-align: center;
+    align-items: center;
+}
+.model{
+    display: flex;
+    margin:2rem 2rem 2rem 2rem;
+}
+@media screen and (max-width: 500px) {
+    .model{
+        display: flex;
+        margin:1rem 1rem 1rem 1rem;
+        font-size: 20px;
+    }
+    .button{
+        text-align: center;
+        align-items: center;
+    }
+  }

@@ -1,0 +1,72 @@
+.Title {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.special{
+    color: white;
+}
+.form {
+    border: 2px solid #1976d2;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 16px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .whole{
+    margin: 0 20rem 0 20rem;
+  }
+  .textField{
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  @media screen and (max-width: 1029px) {
+    .whole{
+        margin: 0 15rem 0 15rem;
+    }
+    .Title {
+        font-size: 2.5rem;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .whole{
+        margin: 10rem 10rem 0 10rem;
+    }
+    .Title {
+        font-size: 2.5rem;
+    }
+  }
+  @media screen and (max-width: 690px) {
+    .whole{
+        margin: 0 7rem 0 7rem;
+    }
+    .Title {
+        font-size: 2rem;
+    }
+  }
+  @media screen and (max-width: 563px) {
+    .whole{
+        margin: 5rem 5rem 0 5rem;
+    }
+    .Title {
+        font-size: 2rem;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .whole{
+        margin: 6rem 4rem 0 4rem;
+    }
+    .Title {
+        font-size: 2rem;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .whole{
+        margin: 7rem 3rem 0 3rem;
+    }
+    .Title {
+        font-size: 1rem;
+    }
+  }

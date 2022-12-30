@@ -1,3 +1,4 @@
+
 .Title {
   font-size: 3rem;
   margin-top: 2rem;
@@ -18,21 +19,25 @@
   margin-left: 2rem;
   margin-right: 2rem;
 }
+.dropDownFields{
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
 .TextField {
   margin-top: 1rem;
   margin-bottom: 1.5rem;
 }
 .field {
   width: 300px;
- 
 }
 .result{
   border: 2px solid #1976d2;
   border-radius: 16px;
   text-align: center;
   margin-top: 2rem;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 2rem;
+  margin-right: 2rem;
   font-size: 2rem;
 }
 

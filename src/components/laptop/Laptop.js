@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "./form.css";
-import ControlledOpenSelect from "./DropDown/DropDown";
+import "./laptop.css";
+import ControlledOpenSelect from "../DropDown/DropDown";
 import { Button, TextField } from "@mui/material";
 
 const url = `http://127.0.0.1:5000/predict/price`;
-function Form() {
+function Laptop() {
   const [price, setPrice] = useState("");
   const [formData, setformData] = useState("");
   const [inches, setInches] = useState("");
@@ -90,7 +90,7 @@ function Form() {
   }, [0]);
 
   return (
-    <div>
+    <div className="whole">
       <div className="Title">Laptop Price Predictor</div>
       <div className="form">
         <form
@@ -99,7 +99,8 @@ function Form() {
           }}
           method="POST"
         >
-          <ControlledOpenSelect
+        <div className="dropDownFields">
+        <ControlledOpenSelect
             setDummy={setDummy}
             namee="company"
             name="company"
@@ -115,6 +116,9 @@ function Form() {
             dummy={dummy}
             page='1'
           />
+        </div>
+
+        <div className="dropDownFields">
 
           <ControlledOpenSelect
             setDummy={setDummy}
@@ -132,6 +136,11 @@ function Form() {
             dummy={dummy}
             page='1'
           />
+        </div>
+
+          
+
+        <div className="dropDownFields">
           <ControlledOpenSelect
             setDummy={setDummy}
             name="IPS"
@@ -148,6 +157,10 @@ function Form() {
             dummy={dummy}
             page='1'
           />
+          </div>
+
+        <div className="dropDownFields">
+
           <ControlledOpenSelect
             setDummy={setDummy}
             name="HDD in GB"
@@ -164,6 +177,9 @@ function Form() {
             dummy={dummy}
             page='1'
           />
+        </div>
+
+        <div className="dropDownFields">
           <ControlledOpenSelect
             setDummy={setDummy}
             name="GPU Brand"
@@ -181,6 +197,9 @@ function Form() {
             setscreenResolution={setscreenResolution}
             page='1'
           />
+        </div>
+        
+          
           <div className="TextField">
             <TextField
               className="field"
@@ -240,4 +259,4 @@ function Form() {
   );
 }
 
-export default Form;
+export default Laptop;

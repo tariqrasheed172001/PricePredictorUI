@@ -28,7 +28,7 @@ export default function ControlledOpenSelect({page,data, namee,name, setDummy,se
 
   return (
     <div className={ page === '1' ? "lefty" : "header"}>
-        <FormControl fullWidth sx={{mt: 2}}>
+        <FormControl fullWidth  sx={{mt: 2}}>
             <InputLabel id="demo-controlled-open-select-label">{name}</InputLabel>
             <Select
             labelId="demo-controlled-open-select-label"
