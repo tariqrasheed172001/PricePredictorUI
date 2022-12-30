@@ -7,6 +7,15 @@
 .special{
     color: white;
 }
+.result{
+    border: 2px solid #1976d2;
+    padding: 1rem 1rem 0rem 1rem;
+    border-radius: 16px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    margin-top: 0.3rem;
+}
 .form {
     border: 2px solid #1976d2;
     padding: 2rem 2rem 2rem 2rem;

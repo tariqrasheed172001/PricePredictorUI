@@ -3,6 +3,7 @@ import axios from "axios";
 import "./house.css"
 import ControlledOpenSelect from '../DropDown/DropDown';
 import { Button, TextField } from '@mui/material';
+import ColoredLine from '../common/ColoredLine';
 
 const url = `http://127.0.0.1:5000/housePricePredictor`;
 function House() {
@@ -24,10 +25,9 @@ function House() {
           const resJson = await responce.json();
           console.log(resJson);
           setformData(JSON.parse(JSON.stringify(resJson)));
-          console.log(formData.location)
         };
         fetchApi();
-      }, [0]);
+      }, []);
 
     const handleSubmit = (event) =>{
         event.preventDefault();
@@ -39,15 +39,7 @@ function House() {
         });
 
     }
-    const ColoredLine = ({ color }) => (
-        <hr
-            style={{
-                color: color,
-                backgroundColor: color,
-                height: 0
-            }}
-        />
-    );
+    
   return (
     <div className='whole'>
         <div className="Title">House Price Predictor</div>
@@ -61,7 +53,6 @@ function House() {
                 <div className='textField'>
 
                     <ControlledOpenSelect name="Location" data={formData.location} namee="location" dummy={sendData} setDummy={setsendData} />
-
 
                     <ColoredLine color="white" />
 
@@ -113,7 +104,7 @@ function House() {
         </div>
         {price !== "" && (
         <div className="result">
-          <p>{price.data == "Infinity\n" ? ("Form inputs are invalid!") : (`Price ₨:${price.data}`) }</p>
+          <p>{price.data === "Infinity\n" ? ("Form inputs are invalid!") : (`Price ₨:${price.data}`) }</p>
         </div>
       )}
     </div>

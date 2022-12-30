@@ -1,41 +1,161 @@
-.Title {
-  font-size: 3rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  text-align: center;
+
+.boxer{
+  margin: 7rem 4rem 4rem 4rem;
 }
-.dropDownFields {
-  display: flex;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
+
 .TextField {
   margin-top: 1rem;
   margin-bottom: 1.5rem;
 }
 
-
-.result {
-  border: 2px solid #1976d2;
-  border-radius: 16px;
-  text-align: center;
+.dropDownFields {
+  display: flex;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.title {
+  font-size: 3rem;
   margin-top: 2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.fform{
+    border: 2px solid #1976d2;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 16px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    height: fit-content;
+}
+.rresult {
+    border: 2px solid #1976d2;
+    padding: 1rem 1rem 0rem 1rem;
+    text-align: center;
+    border-radius: 16px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 0.3rem;
+    font-size: 2rem;
 }
 
-.whole{
-  
-}
 
-@media screen and (max-width: 948px) {
-  .Title {
-    font-size: 5rem;
+@media screen and (max-width: 1029px) {
+  .boxer{
+    margin: 5rem 0rem 0rem 0rem;
   }
-  .result {
+  .fform{
+    padding: 1rem 1rem 1rem 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  .rresult {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.1rem;
     font-size: 1.5rem;
-    margin-left: 0;
-    margin-right: 0;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .boxer{
+    margin: 5rem 0rem 0rem 0rem;
+  }
+  .fform{
+    padding: 1rem 1rem 1rem 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  .rresult {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.1rem;
+    font-size: 1.5rem;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 690px) {
+  .boxer{
+    margin: 5rem 0rem 0rem 0rem;
+  }
+  .fform{
+    padding: 1rem 1rem 1rem 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  .rresult {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.1rem;
+    font-size: 1.5rem;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 563px) {
+  .boxer{
+    margin: 5rem 0rem 0rem 0rem;
+  }
+  .fform{
+    padding: 1rem 1rem 1rem 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  .rresult {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.1rem;
+    font-size: 1.5rem;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .boxer{
+    margin: 5rem 0rem 0rem 0rem;
+  }
+  .fform{
+    padding: 1rem 1rem 1rem 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  .rresult {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.1rem;
+    font-size: 1.5rem;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .boxer{
+    margin: 5rem 0rem 0rem 0rem;
+  }
+  .fform{
+    padding: 1rem 1rem 1rem 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  .rresult {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.1rem;
+    font-size: 1.5rem;
+  }
+  .title {
+    font-size: 1.5rem;
   }
 }

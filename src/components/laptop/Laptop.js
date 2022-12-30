@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "./laptop.css";
+import './laptop.css';
 import ControlledOpenSelect from "../DropDown/DropDown";
 import { Button, TextField } from "@mui/material";
+import ColoredLine from "../common/ColoredLine";
 
 const url = `http://127.0.0.1:5000/predict/price`;
 function Laptop() {
@@ -87,12 +88,12 @@ function Laptop() {
       // console.log(formData.company)
     };
     fetchApi();
-  }, [0]);
+  }, []);
 
   return (
-    <div className="whole">
-      <div className="Title">Laptop Price Predictor</div>
-      <div className="form">
+    <div className="boxer">
+      <div className="title">Laptop Price Predictor</div>
+      <div className="fform">
         <form
           onSubmit={(event) => {
             handleSubmit(event);
@@ -108,6 +109,7 @@ function Laptop() {
             dummy={dummy}
             page='0'
           />
+          <ColoredLine color={"white"} />
           <ControlledOpenSelect
             setDummy={setDummy}
             namee="TypeName"
@@ -128,6 +130,7 @@ function Laptop() {
             dummy={dummy}
             page='0'
           />
+          <ColoredLine color={"white"} />
           <ControlledOpenSelect
             setDummy={setDummy}
             name="Touchscreen"
@@ -149,6 +152,7 @@ function Laptop() {
             dummy={dummy}
             page='0'
           />
+          <ColoredLine color={"white"} />
           <ControlledOpenSelect
             setDummy={setDummy}
             name="CPU Brand"
@@ -169,6 +173,7 @@ function Laptop() {
             dummy={dummy}
             page='0'
           />
+          <ColoredLine color={"white"} />
           <ControlledOpenSelect
             setDummy={setDummy}
             name="SSD in GB"
@@ -188,6 +193,7 @@ function Laptop() {
             dummy={dummy}
             page='0'
           />
+          <ColoredLine color={"white"} />
           <ControlledOpenSelect
             setDummy={setDummy}
             name="ScreenResolution"
@@ -249,7 +255,7 @@ function Laptop() {
       </div>
 
       {price !== "" && (
-        <div className="result">
+        <div className="rresult">
           <p>Price ₨ :{price.data}</p>
         </div>
       )}
