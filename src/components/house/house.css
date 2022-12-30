@@ -64,7 +64,7 @@
   }
   @media screen and (max-width: 480px) {
     .whole{
-        margin: 7rem 3rem 0 3rem;
+        margin: 10rem 0rem 0rem 0rem;
     }
     .Title {
         font-size: 1rem;
