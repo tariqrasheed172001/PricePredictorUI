@@ -1,14 +1,13 @@
-
 .boxer{
   margin: 7rem 4rem 4rem 4rem;
 }
 
-.TextField {
+.TextField{
   margin-top: 1rem;
   margin-bottom: 1.5rem;
 }
 
-.dropDownFields {
+.dropDownFields{
   display: flex;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;

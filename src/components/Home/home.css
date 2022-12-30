@@ -4,14 +4,15 @@
 }
 
 .box{
-    display: inline-flex;
-    margin:4rem 2rem 2rem 2rem;
+    display: flex;
+    margin:15rem 2rem 2rem 2rem;
     align-items: center;
-   
 }
 .cardd{
     margin:2rem 2rem 2rem 2rem;
     border-radius: 100px;
+    width: 33.33%;
+    min-height: 100%;
 }
 @media screen and (max-width: 783px) {
     .model{
@@ -21,13 +22,12 @@
     }
     .cardd{
         margin:0rem 0rem 0rem 0rem;
-        
+        width: 100%;
+       
     }
     .box{
         display: block;
         margin:5rem 0rem 0rem 0rem;
-        align-items: center;
-       
     }
     .button{
         text-align: center;

@@ -141,8 +141,6 @@ function Laptop() {
           />
         </div>
 
-          
-
         <div className="dropDownFields">
           <ControlledOpenSelect
             setDummy={setDummy}

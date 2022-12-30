@@ -5,7 +5,7 @@ const handleRender = ({ color }) => (
         style={{
             color: color,
             backgroundColor: color,
-            height: 0
+            height: 0,
         }}
     />
 );

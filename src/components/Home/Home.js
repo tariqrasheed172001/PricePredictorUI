@@ -63,6 +63,33 @@ function Home() {
           ></div>
         </div>
       </div>
+      <div className="cardd">
+        <div
+          className="card text-center model"
+          style={{ borderRadius: "1rem" }}
+        >
+          <div className="card-header" style={{ borderRadius: "2rem" }}></div>
+          <div className="card-body" style={{ borderRadius: "2rem" }}>
+            <h5 className="card-title">Car Price Predictor</h5>
+            <p className="card-text">
+              Know the real time price of your dream car
+            </p>
+            <a
+              href=""
+              className="btn btn-primary"
+              onClick={() => {
+                navigate("/carPricePredictor");
+              }}
+            >
+              Go There
+            </a>
+          </div>
+          <div
+            className="card-footer text-muted"
+            style={{ borderRadius: "2rem" }}
+          ></div>
+        </div>
+      </div>
     </div>
   );
 }
