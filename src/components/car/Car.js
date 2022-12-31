@@ -63,7 +63,7 @@ function Car() {
 
                     <ColoredLine color="white" />
 
-                    <ControlledOpenSelect name="Fuel_type" namee="fuel_type" data={formData.fuel_type} dummy={sendData} setDummy={setsendData} />
+                    <ControlledOpenSelect name="Fuel type" namee="fuel_type" data={formData.fuel_type} dummy={sendData} setDummy={setsendData} />
                 </div>
 
                 <TextField
