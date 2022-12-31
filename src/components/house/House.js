@@ -4,6 +4,7 @@ import "./house.css"
 import ControlledOpenSelect from '../DropDown/DropDown';
 import { Button, TextField } from '@mui/material';
 import ColoredLine from '../common/ColoredLine';
+import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 
 const url = `http://127.0.0.1:5000/housePricePredictor`;
 function House() {
@@ -104,7 +105,7 @@ function House() {
         </div>
         {price !== "" && (
         <div className="result">
-          <p>{price.data === "Infinity\n" ? ("Form inputs are invalid!") : (`Price ₨:${price.data}`) }</p>
+          <p>{price.data === "Infinity\n" ? ("Form inputs are invalid!") : <p><CurrencyRupeeIcon /> {`${price.data}`}  </p> }</p>
         </div>
       )}
     </div>

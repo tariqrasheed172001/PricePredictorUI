@@ -4,6 +4,7 @@ import './laptop.css';
 import ControlledOpenSelect from "../DropDown/DropDown";
 import { Button, TextField } from "@mui/material";
 import ColoredLine from "../common/ColoredLine";
+import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 
 const url = `http://127.0.0.1:5000/predict/price`;
 function Laptop() {
@@ -254,7 +255,7 @@ function Laptop() {
 
       {price !== "" && (
         <div className="rresult">
-          <p>Price ₨ :{price.data}</p>
+        <p><CurrencyRupeeIcon /> {`${price.data}`}  </p>
         </div>
       )}
 

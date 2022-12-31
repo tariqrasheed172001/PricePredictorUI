@@ -72,7 +72,7 @@ function Home() {
           <div className="card-body" style={{ borderRadius: "2rem" }}>
             <h5 className="card-title">Car Price Predictor</h5>
             <p className="card-text">
-              Know the real time price of your dream car
+              Know the price by filling a short form of your car
             </p>
             <a
               href=""

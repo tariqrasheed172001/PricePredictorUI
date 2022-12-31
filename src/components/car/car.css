@@ -1,4 +1,79 @@
-.ksdjf{
-    font-size: 5rem;
-    margin-top: 4rem;
+.Titlee {
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
 }
+.result{
+    border: 2px solid #1976d2;
+    padding: 1rem 1rem 0rem 1rem;
+    border-radius: 16px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    margin-top: 0.3rem;
+    font-size: 1.5rem;
+}
+.formm {
+    border: 2px solid #1976d2;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 16px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .wholee{
+    margin: 5rem 20rem 20rem 20rem;
+  }
+  .textFieldd{
+    display: flex;
+    /* margin-top: 0.5rem; */
+    /* margin-bottom: 0.5rem; */
+  }
+  @media screen and (max-width: 1029px) {
+    .wholee{
+        margin: 0 15rem 0 15rem;
+    }
+    .Titlee{
+        font-size: 2.5rem;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .wholee{
+        margin: 10rem 10rem 0 10rem;
+    }
+    .Titlee{
+        font-size: 2.5rem;
+    }
+  }
+  @media screen and (max-width: 690px) {
+    .wholee{
+        margin: 0 7rem 0 7rem;
+    }
+    .Titlee {
+        font-size: 2rem;
+    }
+  }
+  @media screen and (max-width: 563px) {
+    .wholee{
+        margin: 5rem 5rem 0 5rem;
+    }
+    .Titlee {
+        font-size: 2rem;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .wholee{
+        margin: 6rem 4rem 0 4rem;
+    }
+    .Titlee {
+        font-size: 2rem;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .wholee{
+        margin: 10rem 0rem 0rem 0rem;
+    }
+    .Titlee {
+        font-size: 1rem;
+    }
+  }
